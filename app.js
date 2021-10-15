@@ -75,7 +75,6 @@ function addData(obj) {
 
 // Update the DOM
 //----------------- we put the paramter defualt to data
-//because if we don't pass any arguments once we call the function it uses data by default
 function updateDom(providedData = data) {
   //clear the main div
   main.innerHTML = '<h2><strong>Person</strong> Wealth</h2>';
